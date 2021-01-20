@@ -125,4 +125,13 @@ export default {
 
 <style lang="scss">
 @import '../../node_modules/@uiowa/uids/src/components/banner/banner.scss';
+
+.banner--slim-title {
+  min-height: unset;
+  padding: 10px 0px;
+}
+
+.banner.bg--black {
+  color: #fff;
+}
 </style>

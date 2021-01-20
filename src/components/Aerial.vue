@@ -84,4 +84,8 @@ export default {
 
 <style lang="scss">
 @import '../../node_modules/@uiowa/uids/src/components/viewbook/aerial/aerial.scss';
+
+.aerial::after {
+  display: none;
+}
 </style>

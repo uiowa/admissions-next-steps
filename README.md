@@ -1,4 +1,4 @@
-# VueJS Site Template
+# Admissions Next Steps
 Vue 3.0
 
 ### Install dependencies

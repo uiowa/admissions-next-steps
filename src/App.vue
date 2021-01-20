@@ -91,7 +91,7 @@
 </div>
 <Aerial
   aerial_title='Your New Home!'
-  aerial_image='/images/viewbook/sections/12.jpg'
+  aerial_image='images/viewbook/sections/12.jpg'
   grid_title_1='World-class hospital'
   grid_sub_1=' A nationally ranked, comprehensive medical center is just a short walk away.'
   grid_title_2='Best college town'
@@ -107,7 +107,7 @@
 </div>
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/admitted-students/admitted-first-year-students#opportunities'
-  image= '/images/viewbook/sections/2016_06_26-ISS-Calendar-Shoot-CHEER-jatorner-0236-Edit-min.JPG'
+  image= 'images/viewbook/sections/2016_06_26-ISS-Calendar-Shoot-CHEER-jatorner-0236-Edit-min.JPG'
   headline= 'JUMP IN'
   button_text= 'Opportunities For First Year Students'
   button_link= 'https://admissions.uiowa.edu/admitted-students/admitted-first-year-students#opportunities'
@@ -133,7 +133,7 @@
 </div>
 <grid-panel
   link_url= 'https://stories.uiowa.edu/student-outcomes'
-  image= '/images/viewbook/sections/2019_05_03-Cap-and-Gown-Commercial-Shoot-jatorner-1312-min.jpg'
+  image= 'images/viewbook/sections/2019_05_03-Cap-and-Gown-Commercial-Shoot-jatorner-1312-min.jpg'
   headline= 'Reach Your Goals'
   button_text= 'View Student Outcomes'
   button_link= 'https://stories.uiowa.edu/student-outcomes'
@@ -394,20 +394,20 @@
 </div>
 <div class="image-grid">
   <div class="image-grid__section">
-    <img class="card__img" :src="'/images/viewbook/sections/cropped-kinnick.jpg'" alt="Alt Text" loading=lazy>
+    <img class="card__img" :src="'images/viewbook/sections/cropped-kinnick.jpg'" alt="Alt Text" loading=lazy>
   </div>
 
   <div class="image-grid__section">
-    <img class="card__img" :src="'/images/viewbook/sections/cropped-herky.jpg'" alt="Alt Text" loading=lazy>
+    <img class="card__img" :src="'images/viewbook/sections/cropped-herky.jpg'" alt="Alt Text" loading=lazy>
   </div>
 
   <div class="image-grid__section">
     <Modal>
       <template v-slot:modal-trigger>
-        <img class="card__img" :src="'/images/viewbook/sections/Pano6.jpg'" alt="Alt Text" loading=lazy>
+        <img class="card__img" :src="'images/viewbook/sections/Pano6.jpg'" alt="Alt Text" loading=lazy>
       </template>
       <template v-slot:modal-content>
-        <img :src="'/images/viewbook/sections/campus-drone-image.jpg'" alt="Alt Text" loading=lazy>
+        <img :src="'images/viewbook/sections/campus-drone-image.jpg'" alt="Alt Text" loading=lazy>
       </template>
     </Modal>
   </div>
@@ -421,11 +421,11 @@
   </div>
 
   <div class="image-grid__section">
-    <img class="card__img" :src="'/images/viewbook/sections/2016_07_05-Herky-On-Top-of-Old-Cap-jatorner-281-HDR-Edit-min.JPG'" alt="Alt Text" loading=lazy>
+    <img class="card__img" :src="'images/viewbook/sections/2016_07_05-Herky-On-Top-of-Old-Cap-jatorner-281-HDR-Edit-min.JPG'" alt="Alt Text" loading=lazy>
   </div>
 
   <div class="image-grid__section">
-    <img class="card__img" :src="'/images/viewbook/sections/2019_10_24-Fall-2019-Campus-Lifestyle-Shoot-jatorner-1939-min.jpg'" alt="Alt Text" loading=lazy>
+    <img class="card__img" :src="'images/viewbook/sections/2019_10_24-Fall-2019-Campus-Lifestyle-Shoot-jatorner-1939-min.jpg'" alt="Alt Text" loading=lazy>
   </div>
 </div>
 
@@ -478,57 +478,57 @@ export default {
       areas_of_study: [
         {
           headline: 'Business, Economics, and Management',
-          image: '/images/viewbook/areas/1.jpg',
+          image: 'images/viewbook/areas/1.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/biz-econ-mgmt',
         },
         {
           headline: 'Education',
-          image: '/images/viewbook/areas/2.jpg',
+          image: 'images/viewbook/areas/2.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/edu',
         },
         {
           headline: 'Engineering and Computing',
-          image: '/images/viewbook/areas/3.jpg',
+          image: 'images/viewbook/areas/3.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/engr-comp',
         },
         {
           headline: 'Health Sciences',
-          image: '/images/viewbook/areas/4.jpg',
+          image: 'images/viewbook/areas/4.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/health-sci',
         },
         {
           headline: 'Languages, culture, and society',
-          image: '/images/viewbook/areas/5.jpg',
+          image: 'images/viewbook/areas/5.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/lang-cult-soc',
         },
         {
           headline: 'Life and natural sciences',
-          image: '/images/viewbook/areas/6.jpg',
+          image: 'images/viewbook/areas/6.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/life-nat-sci',
         },
         {
           headline: 'Math and quantitative sciences',
-          image: '/images/viewbook/areas/7.jpg',
+          image: 'images/viewbook/areas/7.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/math-quant-sci',
         },
         {
           headline: 'Preprofessional programs',
-          image: '/images/viewbook/areas/8.jpg',
+          image: 'images/viewbook/areas/8.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/preprofessional',
         },
         {
           headline: 'Social sciences and policy',
-          image: '/images/viewbook/areas/9.jpg',
+          image: 'images/viewbook/areas/9.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/soc-sci-pol',
         },
         {
           headline: 'Visual and performing arts',
-          image: '/images/viewbook/areas/10.jpg',
+          image: 'images/viewbook/areas/10.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/vis-perf-arts',
         },
         {
           headline: 'Writing, communications, literature, and media',
-          image: '/images/viewbook/areas/11.jpg',
+          image: 'images/viewbook/areas/11.jpg',
           link_url: 'https://admissions.uiowa.edu/academics/write-comm-media',
         },
         {

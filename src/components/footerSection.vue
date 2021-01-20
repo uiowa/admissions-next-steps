@@ -88,5 +88,4 @@ $imgpath: '../../node_modules/@uiowa/uids/src/assets/images';
     padding-bottom: 10rem;
   }
 }
-
 </style>

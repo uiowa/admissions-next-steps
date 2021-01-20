@@ -82,4 +82,11 @@ export default {
 <style lang="scss">
 $imgpath: '../../node_modules/@uiowa/uids/src/assets/images';
 @import '../../node_modules/@uiowa/uids/src/components/branding/footer/footer.scss';
+
+@media (min-width: 84.375em) {
+  footer.footer {
+    padding-bottom: 10rem;
+  }
+}
+
 </style>

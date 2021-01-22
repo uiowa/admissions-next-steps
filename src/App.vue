@@ -73,7 +73,7 @@
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
-  grid_panel_content= '<p>NEXT STEPS</p>'
+  grid_panel_content= '<div class="text--gray element--bold-intro">Next Steps</div>'
   grid_panel_content_2=
     '<p>
       Now that you’ve come this far, you may be
@@ -115,7 +115,7 @@
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
   grid_content_position= 'first'
-  grid_panel_content= '<p>Student Opportunities</p>'
+  grid_panel_content= '<div class="text--gray element--bold-intro">Student Opportunities</div>'
   grid_panel_content_2=
     '<p>
       With more than 500 student organizations on campus, there are many,
@@ -160,8 +160,6 @@
       headline= "Your Next Steps"
     />
     <hr class="element--spacer-separator" />
-    <ol class="element--circle-list">
-      <li>
         <h3 class="bold-headline bold-headline--serif bold-headline--underline">
           <span class="heading__heading">Housing.</span>
         </h3>
@@ -200,8 +198,6 @@
           </a>
         </p>
 
-      </li>
-      <li>
         <h3 class="bold-headline bold-headline--serif bold-headline--underline">
           <span class="heading__heading">Financial Aid.</span>
         </h3>
@@ -263,12 +259,10 @@
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
-      </li>
-    </ol>
+
   </div>
   <div class="grid-panel__column grid-panel__content">
-    <ol class="element--circle-list counter-increment">
-      <li>
+
         <h3 class="bold-headline bold-headline--serif bold-headline--underline">
           <span class="heading__heading">Before Orientation.</span>
         </h3>
@@ -314,8 +308,7 @@
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
-      </li>
-      <li>
+
         <h3 class="bold-headline bold-headline--serif bold-headline--underline">
           <span class="heading__heading">Your Transition.</span>
         </h3>
@@ -371,13 +364,11 @@
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
-      </li>
-    </ol>
   </div>
 </div>
 
 <banner
-  image="images/widescreen__2592_x_1458/pano.jpg"
+  image=""
   banner_size="small"
   banner_vertical_alignment="vertical-center"
   banner_horizontal_alignment="horizontal-center"
@@ -727,12 +718,6 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   line-height: 0;
 }
 
-.element--circle-list ul {
-  margin-top: 1.05rem;
-  margin-bottom: 1.05rem;
-  margin-left: 1.875rem;
-}
-
 // Override and condense for smaller devices.
 .menu-group__wrapper {
   transition: padding 0.5s ease;
@@ -755,20 +740,6 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     .bttn--outline {
       border: 1px solid rgb(21, 21, 21);
     }
-  }
-}
-
-.element--circle-list.counter-increment {
-  counter-reset: circle-counter 2;
-}
-
-.element--circle-list > li {
-  @include breakpoint(sm) {
-    margin-left: 0px;
-  }
-
-  &:before {
-    display: none;
   }
 }
 

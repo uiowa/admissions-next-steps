@@ -73,7 +73,7 @@
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
-  grid_panel_content= '<p class="text--gray element--bold-intro">Next Steps</p>'
+  grid_panel_content= '<div class="text--gray element--bold-intro">Next Steps</div>'
   grid_panel_content_2=
     '<p>
       Now that you’ve come this far, you may be
@@ -115,7 +115,7 @@
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
   grid_content_position= 'first'
-  grid_panel_content= '<p class="text--gray element--bold-intro">Student Opportunities</p>'
+  grid_panel_content= '<div class="text--gray element--bold-intro">Student Opportunities</div>'
   grid_panel_content_2=
     '<p>
       With more than 500 student organizations on campus, there are many,

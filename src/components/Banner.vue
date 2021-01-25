@@ -134,4 +134,21 @@ export default {
 .banner.bg--black {
   color: #fff;
 }
+
+.banner--large {
+  min-height: auto;
+  &::before {
+    float: left;
+    padding-top: 45.25%;
+    content: '';
+  }
+  &::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+  @include breakpoint(container) {
+    min-height: 100vh;
+  }
+}
 </style>

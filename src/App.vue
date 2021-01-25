@@ -47,12 +47,12 @@
   grid_content_position= 'first'
   grid_panel_content=
     '<p>
-      Iowa offers over 200 majors, minors and certificates. Students are encouraged to work across disciplines to find their passion.
-      Throughout your college career, you will work with an academic adviser—either a
-      professional adviser from the Academic Advising Center (AAC) or a faculty member
-      or professional adviser in your major department. In addition to helping you choose
-      classes, your academic adviser will help you explore interests and options, discover
-      possible academic and career goals, and develop an academic plan to graduation.
+      Iowa offers over 200 majors, minors and certificates. Students are encouraged to work
+      across disciplines to find their passion. Throughout your college career, you will work
+      with an academic adviser—either a professional adviser from the Academic Advising Center
+      (AAC) or a faculty member or professional adviser in your major department. In addition
+      to helping you choose classes, your academic adviser will help you explore interests and
+      options, discover possible academic and career goals, and develop an academic plan to graduation.
     </p>'
   grid_panel_content_2= ''
   :card_grid = 'true'
@@ -76,9 +76,9 @@
   grid_panel_content= '<div class="text--gray element--bold-intro">Next Steps</div>'
   grid_panel_content_2=
     '<p>
-      Now that you’ve come this far, you may be
-      wondering, “What’s next?” We’ve prepared this
-      resource to help you join the Hawkeye family
+      Now that you’ve come this far, you may be wondering,
+      “What’s next?” We’ve prepared this resource to help
+      you join the Hawkeye family
     </p>'
 />
 
@@ -118,9 +118,10 @@
   grid_panel_content= '<div class="text--gray element--bold-intro">Student Opportunities</div>'
   grid_panel_content_2=
     '<p>
-      With more than 500 student organizations on campus, there are many,
-      many ways to get involved. First-year students are encouraged to
-      explore and choose from activities after arriving on campus.
+      With more than 500 student organizations on campus, you can get
+      involved and connect with people who share your interests.
+      First-year students are encouraged to explore and choose
+      from the many activities available on campus.
     </p>'
 />
 
@@ -141,7 +142,16 @@
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
-  grid_panel_content= '<p>Having big ideas isn’t enough—to excel in any career, you need to know how to share them and make them real. Iowa’s leadership in the study and craft of writing helps every Hawkeye learn communication skills that give them an edge. Dedicated career advising, thousands of on-campus job interviews, and countless opportunities for hands-on learning make Iowa grads stand out.</p>'
+  grid_panel_content=
+    '<p>
+      Having big ideas isn’t enough—to excel in any career,
+      you need to know how to share them and make them real.
+      Iowa’s leadership in the study and craft of writing helps
+      every Hawkeye learn communication skills that give them an
+      edge. Dedicated career advising, thousands of on-campus
+      job interviews, and countless opportunities for hands-on
+      learning make Iowa grads stand out.
+    </p>'
   grid_panel_content_2= ''
 />
 
@@ -159,35 +169,35 @@
       headline_class= "bold-headline--caps bold-headline headline"
       headline= "Your Next Steps"
     />
-    <hr class="element--spacer-separator" />
-        <h3 class="bold-headline bold-headline--serif bold-headline--underline">
+        <hr class="element--spacer-separator" />
+        <h3 class="h2 headline headline--serif headline--underline">
           <span class="heading__heading">Housing.</span>
         </h3>
 
-        <p>
+        <p class="lead text--gray">
           Living in the residence halls is a wonderful part of the Hawkeye experience. Visit our
           housing website to learn more about your new home, view video tours, and find details
           on furnishings, amenities, and floor plans.
         </p>
 
-        <p>Apply in MyUI</p>
+        <p class="h4 headline headline--serif text--gray">Apply in MyUI</p>
         <ul>
-          <li>$75 Applicatino Fee</li>
+          <li>$75 Application Fee</li>
         </ul>
 
-        <p>Explore and Personalize Options</p>
+        <p class="h4 headline headline--serif text--gray">Explore Options and search for roommates</p>
         <ul>
           <li>Through May 3</li>
         </ul>
 
-        <p>Find a roommate</p>
+        <p class="h4 headline headline--serif text--gray">Find a roommate</p>
         <ul>
           <li>Through May 17</li>
         </ul>
 
-        <p>Final room selection</p>
+        <p class="h4 headline headline--serif text--gray">Final room selection</p>
         <ul>
-          <li>Occurs in June</li>
+          <li>Starts in the summer</li>
         </ul>
 
         <p>
@@ -198,16 +208,18 @@
           </a>
         </p>
 
-        <h3 class="bold-headline bold-headline--serif bold-headline--underline">
+        <hr class="element--spacer-separator" />
+
+        <h3 class="h2 headline headline--serif headline--underline">
           <span class="heading__heading">Financial Aid.</span>
         </h3>
 
-        <p>
+        <p class="lead text--gray">
           With help from the Office of Student Financial Aid, eligible students can receive
           assistance through scholarships, grants, work-study, and loans.
         </p>
 
-        <p>
+        <p class="lead text--gray">
           You can track the status of your financial aid on MyUI under My Financial Aid To Do
           List. MyUI will indicate if the Office of Student Financial Aid has received your FAFSA
           and if you have completed all required forms.
@@ -216,12 +228,12 @@
         <p>
           <a href="https://myui.uiowa.edu" class="bttn bttn--secondary bttn--caps">
 
-            Financial Aid To Do
+            My Financial Aid To Do List
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
 
-        <p>Types of Financial Aid</p>
+        <p class="h4 headline headline--serif text--gray">Types of Financial Aid</p>
         <ul>
           <li>Need, Merit, Employment Loans</li>
         </ul>
@@ -234,7 +246,7 @@
           </a>
         </p>
 
-        <p>File the Free Aplication for Federal Student Aid (FAFSA)</p>
+        <p class="h4 headline headline--serif text--gray">File the Free Application for Federal Student Aid (FAFSA)</p>
         <ul>
           <li>Complete Annually</li>
         </ul>
@@ -247,7 +259,7 @@
           </a>
         </p>
 
-        <p>View your financial aid offer</p>
+        <p class="h4 headline headline--serif text--gray">View your financial aid offer</p>
         <ul>
           <li>Notifications begin in late-February</li>
         </ul>
@@ -259,27 +271,27 @@
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
-
+        <hr class="element--spacer-separator" />
   </div>
   <div class="grid-panel__column grid-panel__content">
 
-        <h3 class="bold-headline bold-headline--serif bold-headline--underline">
+        <h3 class="h2 headline headline--serif headline--underline">
           <span class="heading__heading">Before Orientation.</span>
         </h3>
 
-        <p>We’re thrilled you’re thinking about becoming a Hawkeye, but there are several things you’ll need to do before that can happen.</p>
+        <p class="lead text--gray">We’re thrilled you’re thinking about becoming a Hawkeye, but there are several things you’ll need to do before that can happen.</p>
 
-        <p>Set up your HawkID</p>
+        <p class="h4 headline headline--serif text--gray">Set up your HawkID</p>
         <ul>
           <li>You received an email with instructions on how to do this.</li>
         </ul>
 
-        <p>Set up your HawkID</p>
+        <p class="h4 headline headline--serif text--gray">Set up your HawkID</p>
         <ul>
           <li>You received an email with instructions on how to do this.</li>
         </ul>
 
-        <p>Upload your photo for your Iowa One Card</p>
+        <p class="h4 headline headline--serif text--gray">Upload your photo for your Iowa One Card</p>
         <ul>
           <li>The Iowa One Card is your official University of Iowa photo ID</li>
         </ul>
@@ -292,10 +304,10 @@
           </a>
         </p>
 
-        <p>Take Placement Tests</p>
+       <p class="h4 headline headline--serif text--gray">Take Placement Tests</p>
         <ul>
           <li>
-            Beginning May 3, you can start taking placement tests. Placement tests include math, chemistry, and world languages. You may not be able to register for certain
+            Beginning in May, you can start taking placement tests. Placement tests include math, chemistry, and world languages. You may not be able to register for certain
             classes without a placement test score. Tests must be completed 2 weeks prior to
             your orientation date
           </li>
@@ -308,32 +320,20 @@
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
-
-        <h3 class="bold-headline bold-headline--serif bold-headline--underline">
+        <hr class="element--spacer-separator" />
+        <h3 class="h2 headline headline--serif headline--underline">
           <span class="heading__heading">Your Transition.</span>
         </h3>
 
-        <p>Begin Success at Iowa Course</p>
-        <ul>
-          <li>New undergraduate students are required to complete the online course, Success at Iowa. </li>
-        </ul>
-
-        <p>
-          <a href="https://newstudents.uiowa.edu/success-iowa-online-course" class="bttn bttn--secondary bttn--caps">
-
-            Success At Iowa
-            <i class="fas fa-arrow-right"></i>
-          </a>
-        </p>
-
-        <p>Orientation</p>
+        <p class="h4 headline headline--serif text--gray">Orientation</p>
         <ul>
           <li>
-            First-year students attend a two-day summer program designed to
-            prepare them for their first semester and beyond. During Orientation,
-            students work with their academic adviser, plan their fall semester class schedule,
-            and register for classes. In addition, they learn about the university,
-            explore campus, and meet faculty, staff, and other new students.
+            First-year students will participate in an online Orientation
+            experience designed to prepare them for their first semester
+            and beyond. During online Orientation, students work with their
+            academic adviser, plan their fall semester class schedule, and
+            register for classes. In addition, they learn about the university
+            and meet other new students.
           </li>
         </ul>
 
@@ -345,15 +345,28 @@
           </a>
         </p>
 
-        <p>ON IOWA!</p>
+        <p class="h4 headline headline--serif text--gray">Success at Iowa Course</p>
+        <ul>
+          <li>New undergraduate students are required to complete the online course, Success at Iowa.</li>
+        </ul>
+
+        <p>
+          <a href="https://newstudents.uiowa.edu/success-iowa-online-course" class="bttn bttn--secondary bttn--caps">
+
+            Success At Iowa
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </p>
+
+        <p class="h4 headline headline--serif text--gray">ON IOWA!</p>
         <ul>
           <li>
-            The On Iowa! program is an extended orientation program which takes
-            place the Tuesday through Sunday prior to classes beginning.
-            During On Iowa!, you will spend time at historic Kinnick Stadium
-            where you will take your class photo on the field, participate in
-            Convocation, the official opening of the academic year and eat
-            dinner with President at the President’s Block Party.
+            On Iowa! is the official Hawkeye welcome and will provide a
+            comprehensive introduction to university life. During On Iowa!,
+            students will learn about academic expectations, the differences
+            between high school and college, and how to be successful at
+            Iowa by setting goals, staying safe and healthy, and getting
+            involved on campus.
           </li>
         </ul>
 
@@ -590,7 +603,7 @@ export default {
       ],
       stats_3: [
         {
-          headline: '95',
+          headline: '96',
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'OVERALL JOB/GRADUATE SCHOOL PLACEMENT RATE',
@@ -620,7 +633,7 @@ export default {
       ],
       menu_items: [
         {
-          text: 'Admitted Student Checklist',
+          text: 'Admitted Checklist',
           url: 'https://admissions.uiowa.edu/admitted-students/admitted-first-year-students',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--apply'
         },
@@ -635,8 +648,8 @@ export default {
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--ask'
         },
         {
-          text: 'Request Information',
-          url: 'https://www.maui.uiowa.edu/maui/pub/admissions/webinquiry/undergraduate.page',
+          text: 'Accept Admission',
+          url: 'https://myui.uiowa.edu',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--connect'
         },
       ],
@@ -713,6 +726,14 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
 @import '../node_modules/@uiowa/uids/src/components/viewbook/grid-panel/grid-panel.scss';
 @import '../node_modules/@uiowa/uids/src/components/card/card.scss';
 @import '../node_modules/@uiowa/uids/src/components/layouts/viewbook/viewbook.scss';
+@import '../node_modules/@uiowa/uids/src/components/headline/headline.scss';
+
+.lead {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
 
 .image-grid__section {
   line-height: 0;
@@ -742,5 +763,11 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     }
   }
 }
-
+.grid-panel--split {
+  @media (min-width: 768px) {
+    .grid-panel__column.grid-panel__content {
+      padding: 0px 3.5rem 0px calc(3rem + 115px);
+    }
+  }
+}
 </style>

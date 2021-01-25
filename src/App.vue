@@ -197,7 +197,7 @@
 
         <p>Final room selection</p>
         <ul>
-          <li>Occurs in June</li>
+          <li>Starts in the summer</li>
         </ul>
 
         <p>
@@ -226,7 +226,7 @@
         <p>
           <a href="https://myui.uiowa.edu" class="bttn bttn--secondary bttn--caps">
 
-            Financial Aid To Do
+            My Financial Aid To Do List
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
@@ -244,7 +244,7 @@
           </a>
         </p>
 
-        <p>File the Free Aplication for Federal Student Aid (FAFSA)</p>
+        <p>File the Free Application for Federal Student Aid (FAFSA)</p>
         <ul>
           <li>Complete Annually</li>
         </ul>
@@ -305,7 +305,7 @@
         <p>Take Placement Tests</p>
         <ul>
           <li>
-            Beginning May 3, you can start taking placement tests. Placement tests include math, chemistry, and world languages. You may not be able to register for certain
+            Beginning in May, you can start taking placement tests. Placement tests include math, chemistry, and world languages. You may not be able to register for certain
             classes without a placement test score. Tests must be completed 2 weeks prior to
             your orientation date
           </li>
@@ -323,27 +323,15 @@
           <span class="heading__heading">Your Transition.</span>
         </h3>
 
-        <p>Begin Success at Iowa Course</p>
-        <ul>
-          <li>New undergraduate students are required to complete the online course, Success at Iowa. </li>
-        </ul>
-
-        <p>
-          <a href="https://newstudents.uiowa.edu/success-iowa-online-course" class="bttn bttn--secondary bttn--caps">
-
-            Success At Iowa
-            <i class="fas fa-arrow-right"></i>
-          </a>
-        </p>
-
         <p>Orientation</p>
         <ul>
           <li>
-            First-year students attend a two-day summer program designed to
-            prepare them for their first semester and beyond. During Orientation,
-            students work with their academic adviser, plan their fall semester class schedule,
-            and register for classes. In addition, they learn about the university,
-            explore campus, and meet faculty, staff, and other new students.
+            First-year students will participate in an online Orientation
+            experience designed to prepare them for their first semester
+            and beyond. During online Orientation, students work with their
+            academic adviser, plan their fall semester class schedule, and
+            register for classes. In addition, they learn about the university
+            and meet other new students.
           </li>
         </ul>
 
@@ -355,15 +343,28 @@
           </a>
         </p>
 
+        <p>Success at Iowa Course</p>
+        <ul>
+          <li>New undergraduate students are required to complete the online course, Success at Iowa.</li>
+        </ul>
+
+        <p>
+          <a href="https://newstudents.uiowa.edu/success-iowa-online-course" class="bttn bttn--secondary bttn--caps">
+
+            Success At Iowa
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </p>
+
         <p>ON IOWA!</p>
         <ul>
           <li>
-            The On Iowa! program is an extended orientation program which takes
-            place the Tuesday through Sunday prior to classes beginning.
-            During On Iowa!, you will spend time at historic Kinnick Stadium
-            where you will take your class photo on the field, participate in
-            Convocation, the official opening of the academic year and eat
-            dinner with President at the President’s Block Party.
+            On Iowa! is the official Hawkeye welcome and will provide a
+            comprehensive introduction to university life. During On Iowa!,
+            students will learn about academic expectations, the differences
+            between high school and college, and how to be successful at
+            Iowa by setting goals, staying safe and healthy, and getting
+            involved on campus.
           </li>
         </ul>
 

@@ -47,12 +47,12 @@
   grid_content_position= 'first'
   grid_panel_content=
     '<p>
-      Iowa offers over 200 majors, minors and certificates. Students are encouraged to work across disciplines to find their passion.
-      Throughout your college career, you will work with an academic adviser—either a
-      professional adviser from the Academic Advising Center (AAC) or a faculty member
-      or professional adviser in your major department. In addition to helping you choose
-      classes, your academic adviser will help you explore interests and options, discover
-      possible academic and career goals, and develop an academic plan to graduation.
+      Iowa offers over 200 majors, minors and certificates. Students are encouraged to work
+      across disciplines to find their passion. Throughout your college career, you will work
+      with an academic adviser—either a professional adviser from the Academic Advising Center
+      (AAC) or a faculty member or professional adviser in your major department. In addition
+      to helping you choose classes, your academic adviser will help you explore interests and
+      options, discover possible academic and career goals, and develop an academic plan to graduation.
     </p>'
   grid_panel_content_2= ''
   :card_grid = 'true'
@@ -76,9 +76,9 @@
   grid_panel_content= '<div class="text--gray element--bold-intro">Next Steps</div>'
   grid_panel_content_2=
     '<p>
-      Now that you’ve come this far, you may be
-      wondering, “What’s next?” We’ve prepared this
-      resource to help you join the Hawkeye family
+      Now that you’ve come this far, you may be wondering,
+      “What’s next?” We’ve prepared this resource to help
+      you join the Hawkeye family
     </p>'
 />
 
@@ -118,9 +118,10 @@
   grid_panel_content= '<div class="text--gray element--bold-intro">Student Opportunities</div>'
   grid_panel_content_2=
     '<p>
-      With more than 500 student organizations on campus, there are many,
-      many ways to get involved. First-year students are encouraged to
-      explore and choose from activities after arriving on campus.
+      With more than 500 student organizations on campus, you can get
+      involved and connect with people who share your interests.
+      First-year students are encouraged to explore and choose
+      from the many activities available on campus.
     </p>'
 />
 
@@ -141,7 +142,16 @@
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
-  grid_panel_content= '<p>Having big ideas isn’t enough—to excel in any career, you need to know how to share them and make them real. Iowa’s leadership in the study and craft of writing helps every Hawkeye learn communication skills that give them an edge. Dedicated career advising, thousands of on-campus job interviews, and countless opportunities for hands-on learning make Iowa grads stand out.</p>'
+  grid_panel_content=
+    '<p>
+      Having big ideas isn’t enough—to excel in any career,
+      you need to know how to share them and make them real.
+      Iowa’s leadership in the study and craft of writing helps
+      every Hawkeye learn communication skills that give them an
+      edge. Dedicated career advising, thousands of on-campus
+      job interviews, and countless opportunities for hands-on
+      learning make Iowa grads stand out.
+    </p>'
   grid_panel_content_2= ''
 />
 
@@ -172,10 +182,10 @@
 
         <p>Apply in MyUI</p>
         <ul>
-          <li>$75 Applicatino Fee</li>
+          <li>$75 Application Fee</li>
         </ul>
 
-        <p>Explore and Personalize Options</p>
+        <p>Explore Options and search for roommates</p>
         <ul>
           <li>Through May 3</li>
         </ul>
@@ -590,7 +600,7 @@ export default {
       ],
       stats_3: [
         {
-          headline: '95',
+          headline: '96',
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'OVERALL JOB/GRADUATE SCHOOL PLACEMENT RATE',
@@ -620,7 +630,7 @@ export default {
       ],
       menu_items: [
         {
-          text: 'Admitted Student Checklist',
+          text: 'Admitted Checklist',
           url: 'https://admissions.uiowa.edu/admitted-students/admitted-first-year-students',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--apply'
         },
@@ -635,8 +645,8 @@ export default {
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--ask'
         },
         {
-          text: 'Request Information',
-          url: 'https://www.maui.uiowa.edu/maui/pub/admissions/webinquiry/undergraduate.page',
+          text: 'Accept Admission',
+          url: 'https://myui.uiowa.edu',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--connect'
         },
       ],
@@ -742,5 +752,11 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     }
   }
 }
-
+.grid-panel--split {
+  @media (min-width: 768px) {
+    .grid-panel__column.grid-panel__content {
+      padding: 0px 3.5rem 0px calc(3rem + 115px);
+    }
+  }
+}
 </style>

@@ -171,7 +171,7 @@
     />
         <hr class="element--spacer-separator" />
         <h3 class="h2 headline headline--serif headline--underline">
-          <span class="heading__heading">Housing.</span>
+          <span class="heading__heading">Housing</span>
         </h3>
 
         <p class="lead text--gray">
@@ -190,11 +190,6 @@
           <li>Through May 3</li>
         </ul>
 
-        <p class="h4 headline headline--serif text--gray">Find a roommate</p>
-        <ul>
-          <li>Through May 17</li>
-        </ul>
-
         <p class="h4 headline headline--serif text--gray">Final room selection</p>
         <ul>
           <li>Starts in the summer</li>
@@ -211,7 +206,7 @@
         <hr class="element--spacer-separator" />
 
         <h3 class="h2 headline headline--serif headline--underline">
-          <span class="heading__heading">Financial Aid.</span>
+          <span class="heading__heading">Financial Aid</span>
         </h3>
 
         <p class="lead text--gray">
@@ -276,15 +271,10 @@
   <div class="grid-panel__column grid-panel__content">
 
         <h3 class="h2 headline headline--serif headline--underline">
-          <span class="heading__heading">Before Orientation.</span>
+          <span class="heading__heading">Before Orientation</span>
         </h3>
 
         <p class="lead text--gray">We’re thrilled you’re thinking about becoming a Hawkeye, but there are several things you’ll need to do before that can happen.</p>
-
-        <p class="h4 headline headline--serif text--gray">Set up your HawkID</p>
-        <ul>
-          <li>You received an email with instructions on how to do this.</li>
-        </ul>
 
         <p class="h4 headline headline--serif text--gray">Set up your HawkID</p>
         <ul>
@@ -322,7 +312,7 @@
         </p>
         <hr class="element--spacer-separator" />
         <h3 class="h2 headline headline--serif headline--underline">
-          <span class="heading__heading">Your Transition.</span>
+          <span class="heading__heading">Your Transition</span>
         </h3>
 
         <p class="h4 headline headline--serif text--gray">Orientation</p>

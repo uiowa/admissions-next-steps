@@ -169,33 +169,33 @@
       headline_class= "bold-headline--caps bold-headline headline"
       headline= "Your Next Steps"
     />
-    <hr class="element--spacer-separator" />
-        <h3 class="bold-headline bold-headline--serif bold-headline--underline">
+        <hr class="element--spacer-separator" />
+        <h3 class="h2 headline headline--serif headline--underline">
           <span class="heading__heading">Housing.</span>
         </h3>
 
-        <p>
+        <p class="lead text--gray">
           Living in the residence halls is a wonderful part of the Hawkeye experience. Visit our
           housing website to learn more about your new home, view video tours, and find details
           on furnishings, amenities, and floor plans.
         </p>
 
-        <p>Apply in MyUI</p>
+        <p class="h4 headline headline--serif text--gray">Apply in MyUI</p>
         <ul>
           <li>$75 Application Fee</li>
         </ul>
 
-        <p>Explore Options and search for roommates</p>
+        <p class="h4 headline headline--serif text--gray">Explore Options and search for roommates</p>
         <ul>
           <li>Through May 3</li>
         </ul>
 
-        <p>Find a roommate</p>
+        <p class="h4 headline headline--serif text--gray">Find a roommate</p>
         <ul>
           <li>Through May 17</li>
         </ul>
 
-        <p>Final room selection</p>
+        <p class="h4 headline headline--serif text--gray">Final room selection</p>
         <ul>
           <li>Starts in the summer</li>
         </ul>
@@ -208,16 +208,18 @@
           </a>
         </p>
 
-        <h3 class="bold-headline bold-headline--serif bold-headline--underline">
+        <hr class="element--spacer-separator" />
+
+        <h3 class="h2 headline headline--serif headline--underline">
           <span class="heading__heading">Financial Aid.</span>
         </h3>
 
-        <p>
+        <p class="lead text--gray">
           With help from the Office of Student Financial Aid, eligible students can receive
           assistance through scholarships, grants, work-study, and loans.
         </p>
 
-        <p>
+        <p class="lead text--gray">
           You can track the status of your financial aid on MyUI under My Financial Aid To Do
           List. MyUI will indicate if the Office of Student Financial Aid has received your FAFSA
           and if you have completed all required forms.
@@ -231,7 +233,7 @@
           </a>
         </p>
 
-        <p>Types of Financial Aid</p>
+        <p class="h4 headline headline--serif text--gray">Types of Financial Aid</p>
         <ul>
           <li>Need, Merit, Employment Loans</li>
         </ul>
@@ -244,7 +246,7 @@
           </a>
         </p>
 
-        <p>File the Free Application for Federal Student Aid (FAFSA)</p>
+        <p class="h4 headline headline--serif text--gray">File the Free Application for Federal Student Aid (FAFSA)</p>
         <ul>
           <li>Complete Annually</li>
         </ul>
@@ -257,7 +259,7 @@
           </a>
         </p>
 
-        <p>View your financial aid offer</p>
+        <p class="h4 headline headline--serif text--gray">View your financial aid offer</p>
         <ul>
           <li>Notifications begin in late-February</li>
         </ul>
@@ -269,27 +271,27 @@
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
-
+        <hr class="element--spacer-separator" />
   </div>
   <div class="grid-panel__column grid-panel__content">
 
-        <h3 class="bold-headline bold-headline--serif bold-headline--underline">
+        <h3 class="h2 headline headline--serif headline--underline">
           <span class="heading__heading">Before Orientation.</span>
         </h3>
 
-        <p>We’re thrilled you’re thinking about becoming a Hawkeye, but there are several things you’ll need to do before that can happen.</p>
+        <p class="lead text--gray">We’re thrilled you’re thinking about becoming a Hawkeye, but there are several things you’ll need to do before that can happen.</p>
 
-        <p>Set up your HawkID</p>
+        <p class="h4 headline headline--serif text--gray">Set up your HawkID</p>
         <ul>
           <li>You received an email with instructions on how to do this.</li>
         </ul>
 
-        <p>Set up your HawkID</p>
+        <p class="h4 headline headline--serif text--gray">Set up your HawkID</p>
         <ul>
           <li>You received an email with instructions on how to do this.</li>
         </ul>
 
-        <p>Upload your photo for your Iowa One Card</p>
+        <p class="h4 headline headline--serif text--gray">Upload your photo for your Iowa One Card</p>
         <ul>
           <li>The Iowa One Card is your official University of Iowa photo ID</li>
         </ul>
@@ -302,7 +304,7 @@
           </a>
         </p>
 
-        <p>Take Placement Tests</p>
+       <p class="h4 headline headline--serif text--gray">Take Placement Tests</p>
         <ul>
           <li>
             Beginning in May, you can start taking placement tests. Placement tests include math, chemistry, and world languages. You may not be able to register for certain
@@ -318,12 +320,12 @@
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
-
-        <h3 class="bold-headline bold-headline--serif bold-headline--underline">
+        <hr class="element--spacer-separator" />
+        <h3 class="h2 headline headline--serif headline--underline">
           <span class="heading__heading">Your Transition.</span>
         </h3>
 
-        <p>Orientation</p>
+        <p class="h4 headline headline--serif text--gray">Orientation</p>
         <ul>
           <li>
             First-year students will participate in an online Orientation
@@ -343,7 +345,7 @@
           </a>
         </p>
 
-        <p>Success at Iowa Course</p>
+        <p class="h4 headline headline--serif text--gray">Success at Iowa Course</p>
         <ul>
           <li>New undergraduate students are required to complete the online course, Success at Iowa.</li>
         </ul>
@@ -356,7 +358,7 @@
           </a>
         </p>
 
-        <p>ON IOWA!</p>
+        <p class="h4 headline headline--serif text--gray">ON IOWA!</p>
         <ul>
           <li>
             On Iowa! is the official Hawkeye welcome and will provide a
@@ -724,6 +726,14 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
 @import '../node_modules/@uiowa/uids/src/components/viewbook/grid-panel/grid-panel.scss';
 @import '../node_modules/@uiowa/uids/src/components/card/card.scss';
 @import '../node_modules/@uiowa/uids/src/components/layouts/viewbook/viewbook.scss';
+@import '../node_modules/@uiowa/uids/src/components/headline/headline.scss';
+
+.lead {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
 
 .image-grid__section {
   line-height: 0;

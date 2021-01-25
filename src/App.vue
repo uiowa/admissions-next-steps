@@ -769,5 +769,13 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
       padding: 0px 3.5rem 0px calc(3rem + 115px);
     }
   }
+
+  ul {
+    list-style: outside disc;
+    font-size: 1.2rem;
+    margin-top: 1.05rem;
+    margin-bottom: 1.05rem;
+    margin-left: 1.875rem;
+  }
 }
 </style>

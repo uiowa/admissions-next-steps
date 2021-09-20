@@ -768,4 +768,15 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     margin-left: 1.875rem;
   }
 }
+
+// Stat fix to avoid inconsistent stacking below container breakpoint.
+@media (max-width: 81.375em) and (min-width: 768px) {
+  .stat--horizontal:not(.element--flex-center) .stat__description {
+    flex-basis: 80%;
+  }
+  .stat--horizontal:not(.element--flex-center) .stat__content {
+    flex-basis: 80%;
+  }
+}
+
 </style>

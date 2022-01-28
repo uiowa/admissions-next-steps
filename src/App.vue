@@ -187,7 +187,7 @@
 
         <p class="h4 headline headline--serif text--gray">Explore Options and search for roommates</p>
         <ul>
-          <li>Through May 3</li>
+          <li>Through May 2</li>
         </ul>
 
         <p class="h4 headline headline--serif text--gray">Final room selection</p>
@@ -318,12 +318,15 @@
         <p class="h4 headline headline--serif text--gray">Orientation</p>
         <ul>
           <li>
-            First-year students will participate in an online Orientation
-            experience designed to prepare them for their first semester
-            and beyond. During online Orientation, students work with their
-            academic adviser, plan their fall semester class schedule, and
-            register for classes. In addition, they learn about the university
-            and meet other new students.
+            First-year students will have two
+            formats for orientation: online and in--person
+            Online Orientation and Course Registration is required.
+            Reservations will open March 21. Students will need to complete
+            pre-advising in the Orientation tile in MyUI before meeting with their
+            academic advisor virtually to register for classes in June or July.
+            There will also be an optional in-person orientation where students and families
+            can visit campus after their online registration to meet peers and learn
+            about campus resources.
           </li>
         </ul>
 
@@ -331,19 +334,6 @@
           <a href="https://newstudents.uiowa.edu/orientation" class="bttn bttn--secondary bttn--caps">
 
             Orientation
-            <i class="fas fa-arrow-right"></i>
-          </a>
-        </p>
-
-        <p class="h4 headline headline--serif text--gray">Success at Iowa Course</p>
-        <ul>
-          <li>New undergraduate students are required to complete the online course, Success at Iowa.</li>
-        </ul>
-
-        <p>
-          <a href="https://newstudents.uiowa.edu/success-iowa-online-course" class="bttn bttn--secondary bttn--caps">
-
-            Success At Iowa
             <i class="fas fa-arrow-right"></i>
           </a>
         </p>
@@ -379,7 +369,7 @@
   banner_type=""
   banner_overlay= ""
   banner_text='$250 Acceptance Fee'
-  banner_title='Accept Admission by May 3'
+  banner_title='Accept Admission by May 2'
   banner_title_classes='headline headline--uppercase'
 />
 
@@ -533,7 +523,7 @@ export default {
       ],
       stats_1: [
         {
-          headline: '34',
+          headline: '33',
           headline_prefix: '#',
           headline_suffix: '',
           stat_description: 'BEST PUBLIC UNIVERSITY BY U.S. NEWS & WORLD REPORT',
@@ -584,7 +574,7 @@ export default {
           stat_content: 'For $5 or less.',
         },
         {
-          headline: '24',
+          headline: '22',
           headline_prefix: '',
           headline_suffix: '',
           stat_description: 'NCAA DIVISION I<br />  TEAMS',
@@ -593,7 +583,7 @@ export default {
       ],
       stats_3: [
         {
-          headline: '96',
+          headline: '93',
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'OVERALL JOB/GRADUATE SCHOOL PLACEMENT RATE',
@@ -617,7 +607,7 @@ export default {
           headline: '1,316',
           headline_prefix: '',
           headline_suffix: '+',
-          stat_description: 'STUDENTS STUDIED ABROAD LAST YEAR',
+          stat_description: 'STUDENTS STUDIED ABROAD',
           stat_content: 'Spanning the globe in 69 countries.',
         }
       ],

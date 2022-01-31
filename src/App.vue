@@ -587,7 +587,7 @@ export default {
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'OVERALL JOB/GRADUATE SCHOOL PLACEMENT RATE',
-          stat_content: 'Business <strong>97%</strong><br />Education <strong>91%</strong><br />Engineering  <strong>96%</strong><br /> Liberal Arts and Sciences <strong>94%</strong><br /> Nursing <strong>99%</strong><br />Pharmacy <strong>97%</strong>',
+          stat_content: '',
         },
         {
           headline: '4,000',
@@ -744,7 +744,7 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   }
 }
 .grid-panel--split {
-  @media (min-width: 768px) {
+  @media (min-width: 1350px) {
     .grid-panel__column.grid-panel__content {
       padding: 0px 3.5rem 0px calc(3rem + 115px);
     }

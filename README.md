@@ -1,10 +1,12 @@
-# Admissions Next Steps
+# VueJS Site Template
 Vue 3.0
 
-### Install dependencies
-First, install Yarn dependencies:
+### Setup node version
+Currently, node version 14.17.0 works best with our viewbooks.
+The .nvmrc file defines this as the version we are using.
+To use this, run:
 ```
-yarn
+nvm use
 ```
 
 ### Start the local server

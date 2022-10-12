@@ -9,6 +9,12 @@ To use this, run:
 nvm use
 ```
 
+### Install dependencies
+First, install Yarn dependencies:
+```
+yarn
+```
+
 ### Start the local server
 The following command creates and runs a temporary server to view the site locally.
 ```
